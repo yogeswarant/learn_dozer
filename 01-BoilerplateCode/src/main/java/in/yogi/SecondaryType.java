@@ -1,9 +1,10 @@
 package in.yogi;
 
-public class SecondaryType 
+public class SecondaryType
 {
 	private String name;
 	private int age;
+
 	public String getName() {
 		return name;
 	}

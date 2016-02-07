@@ -1,15 +1,15 @@
 package in.yogi;
 
-public class PrimaryType 
+public class PrimaryType
 {
 	private String name;
 	private int age;
-	
+
 	public PrimaryType(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -27,5 +27,5 @@ public class PrimaryType
 	public String toString() {
 		return "PrimaryType [name=" + name + ", age=" + age + "]";
 	}
-	
+
 }
